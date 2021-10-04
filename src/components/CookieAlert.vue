@@ -1,5 +1,19 @@
 <template>
-  <div class="message-container flex w-full px-10 py-2 text-sm">
+  <div
+    class="
+      message-container
+      flex flex-col
+      md:flex-row
+      justify-center
+      items-center
+      w-full
+      px-5
+      md:px-10
+      py-1
+      md:py-2
+      text-sm
+    "
+  >
     <p class="text-justify font-thin">
       Este site armazena cookies no seu dispositivo para melhorar a navegação e
       permitir a análise do uso do site, contribuindo com as nossas iniciativas
@@ -12,7 +26,9 @@
     <button
       class="
         flex
-        ml-5
+        md:ml-5
+        mt-2
+        md:mt-0
         px-5
         py-3
         rounded-md

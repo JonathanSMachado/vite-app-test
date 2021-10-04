@@ -1,11 +1,13 @@
 <template>
-  <div class="bg-white fixed flex flex-col justify-center items-center">
+  <div class="fixed">
     <cookie-alert />
-    <div class="container flex justify-between px-14 py-5">
-      <a href="">
-        <div class="logo"></div>
-      </a>
-      <menu-items />
+    <div class="w-full bg-white flex flex-col justify-center items-center">
+      <div class="container flex justify-between px-2 md:px-14 py-5">
+        <a href="">
+          <div class="logo"></div>
+        </a>
+        <menu-items />
+      </div>
     </div>
   </div>
 </template>

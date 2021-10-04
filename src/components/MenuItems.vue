@@ -1,38 +1,53 @@
 <template>
   <nav class="self-center">
-    <ul class="flex uppercase">
+    <ul class="hidden uppercase">
+      <!-- Insert hamburguer icon here -->
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Início</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Serviços</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Modelos</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Clientes</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Sobre</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Tutoriais</a
         >
       </li>
       <li class="px-4">
-        <a class="text-base transition-all ease-linear font-medium" href=""
+        <a
+          class="sm:text-sm lg:text-base transition-all ease-linear font-medium"
+          href=""
           >Contato</a
         >
       </li>
