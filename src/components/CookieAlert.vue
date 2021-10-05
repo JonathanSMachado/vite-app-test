@@ -8,7 +8,7 @@
       items-center
       w-full
       px-5
-      md:px-10
+      lg:px-20
       py-1
       md:py-2
       text-sm
@@ -30,7 +30,7 @@
         mt-2
         md:mt-0
         px-5
-        py-3
+        py-2
         rounded-md
         self-center
         text-white

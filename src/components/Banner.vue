@@ -1,7 +1,7 @@
 <template>
   <section id="banner" class="text-white pt-24 flex justify-center pb-10">
-    <div class="container pt-24 flex px-10">
-      <div class="w-7/12 flex justify-center items-center">
+    <div class="pt-24 flex px-10">
+      <div class="w-7/12 pl-6 flex justify-start items-center">
         <img
           src="https://www.skybind.com.br/assets/img/hero/img-laptop-smartphone.png"
           alt="logo-banner"
