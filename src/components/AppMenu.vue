@@ -1,20 +1,30 @@
 <template>
-  <div class="fixed">
-    <cookie-alert />
-    <div class="w-screen bg-white flex flex-col justify-center items-center">
-      <div class="w-full flex justify-between px-2 lg:px-16 py-5">
-        <a href="" class="pl-3">
-          <div class="logo"></div>
-        </a>
-        <menu-items />
-      </div>
+  <div
+    id="app-menu"
+    class="w-screen bg-white flex flex-col justify-center items-center"
+  >
+    <div class="w-full flex justify-between px-2 lg:px-16 py-5">
+      <a href="" class="pl-3">
+        <div class="logo"></div>
+      </a>
+      <menu-items />
     </div>
   </div>
 </template>
 
 <script setup>
-import CookieAlert from "./CookieAlert.vue";
 import MenuItems from "./MenuItems.vue";
+
+window.onscroll = function (evt) {
+  const menu = document.getElementById("app-menu");
+  const distance = document.documentElement.scrollTop;
+
+  if (distance > 0) {
+    menu.classList.add("shadow-md");
+  } else {
+    menu.classList.remove("shadow-md");
+  }
+};
 </script>
 
 <style lang="postcss" scoped>
