@@ -37,6 +37,7 @@
         font-semibold
         transition-all
         ease-linear
+        uppercase
       "
     >
       <check-icon class="h-5 w-5" />

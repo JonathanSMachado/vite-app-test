@@ -8,7 +8,10 @@
     "serve": "vite preview"
   },
   "dependencies": {
+    "@fortawesome/fontawesome-free": "^5.15.4",
     "@heroicons/vue": "^1.0.4",
+    "@tailwindcss/forms": "^0.3.4",
+    "animate.css": "^4.1.1",
     "vue": "^3.2.16"
   },
   "devDependencies": {
