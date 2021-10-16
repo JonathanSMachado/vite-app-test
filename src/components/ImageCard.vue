@@ -1,15 +1,5 @@
 <template>
-  <div
-    class="
-      w-full
-      sm:w-1/2
-      lg:w-1/3
-      xl:w-1/4
-      px-3
-      mb-3
-      animate__animated animate__fadeInLeft
-    "
-  >
+  <div class="px-3 mb-3 animate__animated animate__fadeInLeft">
     <a>
       <div
         class="painel-card rounded-md relative flex justify-center items-center"

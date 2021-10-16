@@ -9,16 +9,26 @@ import ImageCard from "./components/ImageCard.vue";
     <cookie-alert />
     <app-menu />
   </div>
-  <section id="banner" class="text-white pt-24 flex justify-center pb-10 mt-16">
-    <div class="pt-24 flex px-10">
-      <div class="w-7/12 pl-6 flex justify-start items-center">
+  <section id="banner" class="text-white pt-48 pb-10 mt-12">
+    <div class="container flex mx-auto">
+      <div class="hidden w-7/12 lg:pl-6 md:flex justify-start items-center">
         <img
           src="https://www.skybind.com.br/assets/img/hero/img-laptop-smartphone.png"
           alt="logo-banner"
         />
       </div>
-      <div class="w-5/12 tracking-normal text-center">
-        <h1 class="font-normal text-base sm:text-xl md:text-3xl">
+      <div
+        class="
+          w-full
+          md:w-5/12
+          tracking-normal
+          text-center
+          pt-10
+          md:pt-0
+          lg:mr-20
+        "
+      >
+        <h1 class="font-normal text-base text-3xl">
           Tenha um site fácil de atualizar que atenda à Resolução nº 389/2021.
         </h1>
         <p
@@ -44,7 +54,7 @@ import ImageCard from "./components/ImageCard.vue";
   </section>
 
   <section id="section-2" class="py-24">
-    <div class="container m-auto">
+    <div class="container m-auto lg:px-16">
       <h1 class="uppercase text-3xl font-normal text-center mb-3">
         você no controle do seu site, sem o trabalho extra!
       </h1>
@@ -52,7 +62,7 @@ import ImageCard from "./components/ImageCard.vue";
         SKYBIND é objetivo, vá direto para inclusão do seu conteúdo.
         Configuração hospedagem, deixa com a gente!
       </p>
-      <div class="flex flex-wrap">
+      <div class="flex flex-wrap text-center">
         <div class="flex flex-col items-center w-full sm:w-1/3 px-2">
           <img
             class="h-24"
@@ -60,7 +70,7 @@ import ImageCard from "./components/ImageCard.vue";
             alt="Responsivo"
           />
           <h3 class="mt-5 text-2xl mb-3">100% Responsivo</h3>
-          <p class="text-center">
+          <p>
             Seu site estará preparado para qualquer dispositivo: computadores,
             smartphones e tablets.
           </p>
@@ -74,7 +84,7 @@ import ImageCard from "./components/ImageCard.vue";
             alt="Modelos prontos"
           />
           <h3 class="mt-5 text-2xl mb-3">Modelos Prontos</h3>
-          <p class="text-center">
+          <p>
             Quer apenas inserir conteúdos sem se preocupar com o resto? Sem
             problemas! Quer personalizar um pouco mais escolhendo cores, menus e
             outros recursos? Você escolhe! Quer testar outro modelo? É fácil,
@@ -91,7 +101,7 @@ import ImageCard from "./components/ImageCard.vue";
             alt="Hospedagem"
           />
           <h3 class="mt-5 text-2xl mb-3">Hospedagem Própria</h3>
-          <p class="text-center">
+          <p>
             Não se preocupe com a hospedagem do seu site, nós cuidamos disso!
           </p>
         </div>
@@ -100,45 +110,58 @@ import ImageCard from "./components/ImageCard.vue";
   </section>
 
   <section id="section-3" class="py-24">
-    <div class="container mx-auto">
+    <div class="container mx-auto lg:px-14">
       <p class="text-center font-thin mb-20">
         Com nosso <span class="font-semibold">Painel de Controle</span>, você
         não precisa de nenhum domínio técnico para ter um site completo e
         profissional.
       </p>
       <div class="flex flex-wrap justify-center">
-        <image-card imageSrc="https://skybind.com.br/assets/img/painel/1.jpg" />
-        <image-card imageSrc="https://skybind.com.br/assets/img/painel/2.jpg" />
-        <image-card imageSrc="https://skybind.com.br/assets/img/painel/3.jpg" />
+        <image-card
+          imageSrc="https://skybind.com.br/assets/img/painel/1.jpg"
+          class="w-full sm:w-1/2 lg:w-1/3"
+        />
+        <image-card
+          imageSrc="https://skybind.com.br/assets/img/painel/2.jpg"
+          class="w-full sm:w-1/2 lg:w-1/3"
+        />
+        <image-card
+          imageSrc="https://skybind.com.br/assets/img/painel/3.jpg"
+          class="w-full sm:w-1/2 lg:w-1/3"
+        />
       </div>
     </div>
   </section>
 
   <section id="section-4" class="py-24">
-    <div class="container mx-auto text-center">
+    <div class="container mx-auto text-center lg:px-14">
       <h1 class="uppercase text-3xl mb-1">
         Escolha entre modelos pré-formatados
       </h1>
       <p class="text-2xl">Sem programação, sem complicação.</p>
-      <div class="flex flex-wrap mt-8">
+      <div class="flex flex-wrap mt-8 justify-center">
         <image-card
           imageSrc="https://skybind.com.br/assets/img/portfolio/modelo1.webp"
+          class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
         />
         <image-card
           imageSrc="https://skybind.com.br/assets/img/portfolio/modelo2.webp"
+          class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
         />
         <image-card
           imageSrc="https://skybind.com.br/assets/img/portfolio/modelo3.webp"
+          class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
         />
         <image-card
           imageSrc="https://skybind.com.br/assets/img/portfolio/modelo4.webp"
+          class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4"
         />
       </div>
     </div>
   </section>
 
   <section id="section-5" class="py-24">
-    <div class="container mx-auto flex px-6 lg:px-12">
+    <div class="container mx-auto flex px-6 lg:px-16">
       <div class="lg:w-1/2">
         <h1 class="uppercase text-3xl mb-12 text-white text-center">
           Como funciona?
@@ -177,7 +200,7 @@ import ImageCard from "./components/ImageCard.vue";
           a inclusão dos conteúdos.
         </p>
       </div>
-      <div class="hidden lg:block lg:w-1/2 mt-10">
+      <div class="hidden lg:block lg:w-1/2 mt-16">
         <img
           src="https://skybind.com.br/assets/img/about/img-laptop@2x.png"
           alt=""
@@ -190,10 +213,21 @@ import ImageCard from "./components/ImageCard.vue";
     <div class="container mx-auto">
       <h1 class="uppercase text-center text-3xl text-white">Tutoriais</h1>
     </div>
+    <div class="flex justify-center mt-6">
+      <iframe
+        width="800"
+        height="600"
+        src="https://www.youtube.com/embed/videoseries?list=PLfECappZVayj-abxzD-8nuo57Os34q4gi"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+        allowfullscreen
+      ></iframe>
+    </div>
   </section>
 
   <section id="section-7" class="py-24">
-    <div class="container mx-auto px-6 lg:px-12">
+    <div class="container mx-auto lg:px-8 xl:px-16">
       <h1 class="uppercase text-center text-3xl">Solicite um orçamento!</h1>
       <div class="flex flex-wrap justify-center mt-10">
         <div class="md:w-1/2 flex flex-col items-center px-2">
@@ -366,22 +400,24 @@ import ImageCard from "./components/ImageCard.vue";
               class="rounded block w-full border-gray-300 shadow-sm mt-3"
             ></textarea>
             <br />
-            <label class="inline-flex items-center text-sm">
-              <input
-                type="checkbox"
-                name="aceite-termos"
-                class="
-                  rounded
-                  border-gray-300
-                  shadow-sm
-                  focus:ring focus:ring-offset-0
-                "
-              />
-              <span class="ml-1">
-                Li e estou de acordo com as
-                <a href="" target="_blank">Políticas de privacidade</a>
-              </span>
-            </label>
+            <div class="flex justify-end mb-3">
+              <label class="inline-flex items-center text-sm">
+                <input
+                  type="checkbox"
+                  name="aceite-termos"
+                  class="
+                    rounded
+                    border-gray-300
+                    shadow-sm
+                    focus:ring focus:ring-offset-0
+                  "
+                />
+                <span class="ml-1">
+                  Li e estou de acordo com as
+                  <a href="" target="_blank">Políticas de privacidade</a>
+                </span>
+              </label>
+            </div>
             <div class="mt-2 flex justify-end">
               <button
                 type="submit"
@@ -415,21 +451,39 @@ import ImageCard from "./components/ImageCard.vue";
   </section>
 
   <footer>
-    <div class="container mx-auto px-6 lg:px-12 py-10 flex items-center">
+    <div
+      class="
+        container
+        mx-auto
+        px-6
+        lg:px-12
+        py-10
+        flex flex-col
+        md:flex-row
+        items-center
+        justify-center
+      "
+    >
       <a href="#banner" class="text-white">
         <img
-          class="pr-4 border-r-2 mr-4 h-8"
+          class="p-0 md:pr-4 border-0 md:border-r-2 mb-2 md:mb-0 h-8"
           src="https://skybind.com.br/assets/img/skybind/Logo-Skybind.svg"
           alt=""
         />
       </a>
-      <p class="text-sm font-thin">
-        Desenvolvido por
-        <a href="https://www.skyinformatica.com.br" target="_blank"></a> Sky
-        Informática. 2021. Todos os direitos reservados.
-        <br />
+      <p class="text-sm font-thin mx-6 flex flex-wrap justify-center">
+        <span class="m-0 lg:mr-4">
+          Desenvolvido por Sky Informática. 2021. Todos os direitos reservados.
+        </span>
         <a class="hover:underline" href="">Política de privacidade</a>
       </p>
+      <a href="https://www.skyinformatica.com.br" target="_blank">
+        <img
+          class="p-0 md:pl-4 border-0 md:border-l-2 mt-2 md:mt-0 h-8"
+          src="https://skybind.com.br/assets/img/skybind/LogoSky.svg"
+          alt=""
+        />
+      </a>
     </div>
   </footer>
 </template>
@@ -539,5 +593,9 @@ import ImageCard from "./components/ImageCard.vue";
 footer {
   background-color: #0279ae;
   color: #fff;
+}
+
+footer img {
+  min-width: 115px;
 }
 </style>

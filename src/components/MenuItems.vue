@@ -14,7 +14,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#banner"
           >Início</a
         >
       </li>
@@ -28,7 +28,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#section-2"
           >Serviços</a
         >
       </li>
@@ -42,7 +42,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#section-4"
           >Modelos</a
         >
       </li>
@@ -70,7 +70,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#section-5"
           >Sobre</a
         >
       </li>
@@ -84,7 +84,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#section-6"
           >Tutoriais</a
         >
       </li>
@@ -98,7 +98,7 @@
             ease-linear
             font-medium
           "
-          href=""
+          href="#section-7"
           >Contato</a
         >
       </li>
