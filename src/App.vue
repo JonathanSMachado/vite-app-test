@@ -2,6 +2,7 @@
 import CookieAlert from "./components/CookieAlert.vue";
 import AppMenu from "./components/AppMenu.vue";
 import ImageCard from "./components/ImageCard.vue";
+import ContactForm from "./components/ContactForm.vue";
 </script>
 
 <template>
@@ -361,90 +362,7 @@ import ImageCard from "./components/ImageCard.vue";
           </p>
         </div>
         <div class="md:w-1/2 px-2">
-          <form action="">
-            <input
-              type="text"
-              name="nome"
-              placeholder="Nome completo"
-              class="rounded block w-full border-gray-300 shadow-sm"
-            />
-            <input
-              type="text"
-              name="serventia"
-              placeholder="Serventia"
-              class="rounded block w-full border-gray-300 shadow-sm mt-3"
-            />
-            <input
-              type="text"
-              name="cidade"
-              placeholder="Cidade"
-              class="rounded block w-full border-gray-300 shadow-sm mt-3"
-            />
-            <input
-              type="tel"
-              name="telefone"
-              placeholder="Telefone"
-              class="rounded block w-full border-gray-300 shadow-sm mt-3"
-            />
-            <input
-              type="email"
-              name="email"
-              placeholder="E-mail"
-              class="rounded block w-full border-gray-300 shadow-sm mt-3"
-            />
-            <textarea
-              name="mensagem"
-              cols="30"
-              rows="10"
-              placeholder="Mensagem"
-              class="rounded block w-full border-gray-300 shadow-sm mt-3"
-            ></textarea>
-            <br />
-            <div class="flex justify-end mb-3">
-              <label class="inline-flex items-center text-sm">
-                <input
-                  type="checkbox"
-                  name="aceite-termos"
-                  class="
-                    rounded
-                    border-gray-300
-                    shadow-sm
-                    focus:ring focus:ring-offset-0
-                  "
-                />
-                <span class="ml-1">
-                  Li e estou de acordo com as
-                  <a href="" target="_blank">Políticas de privacidade</a>
-                </span>
-              </label>
-            </div>
-            <div class="mt-2 flex justify-end">
-              <button
-                type="submit"
-                class="
-                  flex
-                  items-center
-                  disabled:opacity-50 disabled:cursor-default
-                "
-                disabled
-              >
-                <img
-                  class="mr-1"
-                  src="https://skybind.com.br/assets/img/skybind/Icon-Enviar.svg"
-                  alt=""
-                />
-                Enviar
-              </button>
-              <button type="reset" class="flex items-center ml-6">
-                <img
-                  class="mr-1"
-                  src="https://skybind.com.br/assets/img/skybind/Icon-Limpar.svg"
-                  alt=""
-                />
-                Limpar
-              </button>
-            </div>
-          </form>
+          <contact-form />
         </div>
       </div>
     </div>
